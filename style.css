@@ -63,7 +63,7 @@ header {
 
 .hero .hero-content span {
     font-family: 'Josefin Sans',Arial, Helvetica, sans-serif;
-    font-size: clamp(2.188rem, 2.182vw + 1.71rem, 2.938rem);
+    font-size: clamp(2.188rem, 13.043vw + -0.666rem, 5rem);
     text-transform: uppercase;
     color:var(--primary-bg-color);
     font-weight: var(--secondary-font-weight);
