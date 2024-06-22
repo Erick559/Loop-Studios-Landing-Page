@@ -51,7 +51,7 @@ header {
 
 .hero .hero-content {
     border: 2px solid var(--primary-bg-color);
-    padding:15px 30px;
+    padding:25px;
 }
 
 .hero .hero-content div {
