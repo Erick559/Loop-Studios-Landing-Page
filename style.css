@@ -58,7 +58,7 @@ header {
 .hero .hero-content div {
     display: flex;
     flex-direction: column;
-    line-height: clamp(3.281rem, 2.2vw + 2.8rem, 4.038rem);
+    line-height: clamp(1.969rem, 14.058vw + -1.106rem, 5rem);
 }
 
 .hero .hero-content span {
@@ -68,7 +68,3 @@ header {
     color:var(--primary-bg-color);
     font-weight: var(--secondary-font-weight);
 }
-
-.hero .hero-content span:not(:first-child){
-    margin-top: -20px;
-} 
