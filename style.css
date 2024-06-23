@@ -232,22 +232,41 @@ footer {
     font-size: 18px;
 }
 
- @media only screen and (min-width:900px) {
+  @media only screen and (min-width:900px) {
     header {
-        padding:60px 5%;
-        
+        padding:60px 50px;
+         
     }
-
+ 
     .navigation-bar .hamburger-menu-icon {
         display: none;
-    }
-
+     }
+ 
     .navigation-bar ul {
         display: flex;
         gap:20px;
-    }
-
+     }
+ 
     .navigation-bar ul li {
         color:var(--primary-bg-color);
+     }
+ 
+    .hero {
+        background-image: url(images/desktop/image-hero.jpg),linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.3));
+        background-blend-mode: overlay;
+        background-size: cover;
+        min-height:auto;
+        justify-content: start;
+        padding:150px 0px 100px 50px;
     }
-}
+
+    .hero .hero-content div {
+        line-height: 1;
+        padding-right: 50px;
+        width:410px;
+    }
+
+    .hero .hero-content p {
+        font-size: 50px;
+    }
+ }
