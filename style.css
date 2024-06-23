@@ -7,10 +7,10 @@
     --primary-font-weight:400;
     --secondary-font-weight:300;
 
-    font-family:'Alata',Arial, Helvetica, sans-serif;
 }
 
 * {
+    font-family:'Alata',Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -109,4 +109,89 @@ header {
     line-height: 2;
     color:var(--secondary-text-color);
     font-weight: 300;
+}
+
+.creations {
+    display:grid;
+    grid-template-rows:repeat(10,1fr);
+    margin-top:100px;
+    row-gap: 30px;
+}
+
+.creations h1 {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+.creations button {
+    grid-row: 10/11;
+    background: var(--primary-bg-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 19px;
+    font-weight: 500;
+    padding:10px 50px;
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.creations .creation {
+    width: 100%;
+    justify-self: center;
+    text-transform: uppercase;
+    align-content: end;
+    padding: 60px 10px 40px 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-size: 100%;
+    background-blend-mode: overlay;
+}
+
+.creations .creation:hover {
+    background-size: 110%;
+}
+
+.creations .creation h2 {
+    font-family: 'Josefin Sans',Arial, Helvetica, sans-serif;
+    line-height: 1;
+    font-size:32px;
+    font-weight: 300;
+    color:var(--primary-bg-color);
+}
+
+.creations .creation.deep-earth {
+    background-image: url(images/mobile/image-deep-earth.jpg);
+}
+
+.creations .creation.night-arcade {
+    background-image: url(images/mobile/image-night-arcade.jpg), linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+}
+
+.creations .creation.soccer {
+    background-image: url(images/mobile/image-soccer-team.jpg),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+}
+
+.creations .creation.the-grid {
+    background-image: url(images/mobile/image-grid.jpg),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+}
+
+.creations .creation.up-above {
+    background-image: url(images/mobile/image-from-above.jpg),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+}
+
+.creations .creation.pocket-borealis {
+    background-image: url(images/mobile/image-pocket-borealis.jpg),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+}
+
+.creations .creation.curiosity {
+    background-image: url(images/mobile/image-curiosity.jpg),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+}
+
+.creations .creation.fisheye {
+    background-image: url(images/mobile/image-fisheye.jpg),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
 }
