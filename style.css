@@ -233,3 +233,23 @@ footer {
     letter-spacing: 1.5px;
     font-size: 18px;
 }
+
+ @media only screen and (min-width:900px) {
+    header {
+        padding:60px 5%;
+        
+    }
+
+    .navigation-bar .hamburger-menu-icon {
+        display: none;
+    }
+
+    .navigation-bar ul {
+        display: flex;
+        gap:20px;
+    }
+
+    .navigation-bar ul li {
+        color:var(--primary-bg-color);
+    }
+}
