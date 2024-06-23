@@ -58,12 +58,10 @@ header {
 }
 
 .hero .hero-content div {
-    display: flex;
-    flex-direction: column;
     line-height: clamp(1.969rem, 14.058vw + -1.106rem, 5rem);
 }
 
-.hero .hero-content span {
+.hero .hero-content p {
     font-family: 'Josefin Sans',Arial, Helvetica, sans-serif;
     font-size: clamp(2.188rem, 13.043vw + -0.666rem, 5rem);
     text-transform: uppercase;
